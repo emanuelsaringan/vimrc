@@ -17,14 +17,15 @@ set softtabstop=2
 " Show line numbers.
 set number
 
-" Set theme.
-syntax enable
-set background=light
-colorscheme solarized
-
 
 """ OS X SPECIFIC
 
 " Fix Terminal.app color weirdness.
 let g:solarized_termcolors=256
+
+
+""" THEME
+syntax enable
+set background=light
+colorscheme solarized
 
