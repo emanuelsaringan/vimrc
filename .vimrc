@@ -17,15 +17,11 @@ set softtabstop=2
 " Show line numbers.
 set number
 
+" Cycle between buffers.
+:nnoremap <D-]> :bnext<CR>
+:nnoremap <D-[> :bprevious<CR>
 
-""" OS X SPECIFIC
-
-" Fix Terminal.app color weirdness.
-let g:solarized_termcolors=256
-
-
-""" THEME
+""" Theme.
 syntax enable
-set background=light
+set background=dark
 colorscheme solarized
-

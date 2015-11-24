@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Users/esaringan/Desktop'
 let g:netrw_dirhist_2='/Users/esaringan/Documents/codeforces'
 let g:netrw_dirhist_3='/Users/esaringan/Documents'
+let g:netrw_dirhist_4='/Users/esaringan/Documents/codeforces/CapsLock'
+let g:netrw_dirhist_5='/Users/esaringan/Documents/codeforces'
+let g:netrw_dirhist_6='/Users/esaringan/Documents/dsa'
