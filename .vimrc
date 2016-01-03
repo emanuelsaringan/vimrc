@@ -18,8 +18,8 @@ set softtabstop=2
 set number
 
 " Cycle between buffers.
-:nnoremap <D-]> :bnext<CR>
-:nnoremap <D-[> :bprevious<CR>
+:nnoremap <C-PageDown> :bnext<CR>
+:nnoremap <C-PageUp> :bprevious<CR>
 
 "" OS X SPECIFIC
 
