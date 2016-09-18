@@ -21,6 +21,9 @@ set number
 :nnoremap <leader>] :bn<CR>
 :nnoremap <leader>[ :bp<CR>
 
+" Kill buffer.
+:nnoremap <C-k> :bdelete<CR>
+
 " Show buffers.
 let g:airline#extensions#tabline#enabled = 1
 
