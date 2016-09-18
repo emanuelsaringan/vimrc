@@ -21,6 +21,9 @@ set number
 :nnoremap <leader>] :bn<CR>
 :nnoremap <leader>[ :bp<CR>
 
+" Show buffers.
+let g:airline#extensions#tabline#enabled = 1
+
 """ Theme.
 let g:solarized_termcolors=256  " Fix OS X terminal's color weirdness.
 syntax enable
