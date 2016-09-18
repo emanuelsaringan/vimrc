@@ -18,10 +18,8 @@ set softtabstop=2
 set number
 
 " Cycle between buffers.
-:nnoremap <D-]> :bnext<CR>
-:nnoremap <D-[> :bprevious<CR>
-
-"" OS X SPECIFIC
+:nnoremap <leader>] :bn<CR>
+:nnoremap <leader>[ :bp<CR>
 
 """ Theme.
 let g:solarized_termcolors=256  " Fix OS X terminal's color weirdness.
