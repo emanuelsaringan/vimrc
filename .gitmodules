@@ -19,5 +19,5 @@
   url = https://github.com/vim-airline/vim-airline.git
 
 [submodule "vim-bbye"]
-  path = .vim/bundle/vim-bbye.vim
+  path = .vim/bundle/vim-bbye
   url = https://github.com/moll/vim-bbye.git
