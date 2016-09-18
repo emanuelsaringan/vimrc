@@ -24,6 +24,9 @@ set number
 " Show buffers.
 let g:airline#extensions#tabline#enabled = 1
 
+" Show hidden files in NERDTree.
+let NERDTreeShowHidden=1
+
 """ Theme.
 let g:solarized_termcolors=256  " Fix OS X terminal's color weirdness.
 syntax enable
