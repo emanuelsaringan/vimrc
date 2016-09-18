@@ -2,13 +2,13 @@
   path = .vim/bundle/ctrlp.vim
   url = https://github.com/kien/ctrlp.vim.git
 
-[submodule "nerdtree"]
-  path = .vim/bundle/nerdtree
-  url = https://github.com/scrooloose/nerdtree.git
-
 [submodule "nerdcommenter"]
   path = .vim/bundle/nerdcommenter
   url = https://github.com/scrooloose/nerdcommenter.git
+
+[submodule "nerdtree"]
+  path = .vim/bundle/nerdtree
+  url = https://github.com/scrooloose/nerdtree.git
 
 [submodule "solarized"]
   path = .vim/bundle/vim-colors-solarized
@@ -17,3 +17,7 @@
 [submodule "vim-airline"]
   path = .vim/bundle/vim-airline
   url = https://github.com/vim-airline/vim-airline.git
+
+[submodule "vim-bbye"]
+  path = .vim/bundle/vim-bbye.vim
+  url = https://github.com/moll/vim-bbye.git
