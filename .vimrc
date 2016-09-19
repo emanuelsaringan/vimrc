@@ -28,6 +28,7 @@ let g:airline#extensions#tabline#enabled = 1
 let NERDTreeShowHidden=1
 
 """ Theme.
+let g:solarized_termcolors=256  " Fix OS X terminal's color weirdness.
 syntax enable
 set background=dark
 colorscheme solarized
