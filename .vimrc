@@ -21,11 +21,12 @@ set number
 :nnoremap <leader>] :bn<CR>
 :nnoremap <leader>[ :bp<CR>
 
-" Show buffers.
+" vim-airline.
 let g:airline#extensions#tabline#enabled = 1
+let g:airline_powerline_fonts = 1
 
 " Show hidden files in NERDTree.
-let NERDTreeShowHidden=1
+let NERDTreeShowHidden = 1
 
 " Make search case-insensitive.
 set ic
